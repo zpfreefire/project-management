@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$("#bn1").click(function(){
+				alert("text:"+ $("#text").text());
+			});
+			$("#bn2").click(function(){
+				alert("HTML:"+ $("#text").html());
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<p id="text">this is the <b>bold</b> text in the paragragh</p>
+		<button id="bn1">show text</button>
+		<button id="bn2">show html text</button>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#p").focus(function(){
+					$(this).val("获取到焦点");
+				});
+				$("#p").blur(function(){
+					$(this).val("失去焦点");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input id="p"></input>
+		<button id="focus">focus</button>
+		<button id="blur">blur</button>
+	</body>
+</html>

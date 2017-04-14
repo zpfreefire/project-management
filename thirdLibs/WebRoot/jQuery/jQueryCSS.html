@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("h1,h2,p").addClass("blue");
+				$("div").addClass("important");
+			});
+		});
+		</script>
+		<style type="text/css">
+			.important{
+				font-weight: bold;
+				font-size: xx-large;
+			}
+			.blue{
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>title1</h1>
+		<h2>title2</h2>
+		<p>this is a paragragh</p>
+		<p>this is another paragragh</p>
+		<div>this is a very important text!</div>
+		<br>
+		<button>add a class to an element</button>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				var div=$("div");
+				div.animate({left: '200px'}, "slow");
+				div.animate({fontSize: '4em'}, "slow");
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<button>start the animate</button>
+		<p>By default, all HTML elements are statically located and can not be moved. To manipulate the location, remember to first set the CSS position property of the element to relative, fixed, or absolute.</p>
+		<div style="background:#98bf21;height:100px;width:200px;position:abusolute;">
+			<p>jQuery</p>
+		</div>
+	</body>
+</html>
