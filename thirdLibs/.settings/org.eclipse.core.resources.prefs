@@ -1,6 +1,10 @@
 eclipse.preferences.version=1
+encoding//WebRoot/jQuery/chaining.html=UTF-8
+encoding//WebRoot/jQuery/fade.html=UTF-8
+encoding//WebRoot/jQuery/focusAndblur.html=UTF-8
 encoding//src/main/java=UTF-8
 encoding//src/main/resources=UTF-8
 encoding//src/test/java=UTF-8
+encoding//src/test/java/basic/http/server/MyHttpServer.java=UTF-8
 encoding//src/test/resources=UTF-8
 encoding/<project>=UTF-8
